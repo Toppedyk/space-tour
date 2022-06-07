@@ -29,3 +29,34 @@
     overflow: hidden;
   }
 }
+
+.content {
+  margin-top: 10em;
+  text-align: center;
+}
+.intro {
+  padding-top: 5em;
+  padding-left: 12em;
+  padding-right: 13em;
+  padding-bottom: 10em;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #0b0d17;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  border: none;
+  font-size: 2.5em;
+  font-family: "Bellefair", serif;
+}
+.button:hover {
+  box-shadow: 0 0 0 1.7em #ffffff1a;
+}
+
+.btn-container {
+  padding-top: 10em;
+  padding-left: 12em;
+  padding-right: 12em;
+}

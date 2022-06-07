@@ -1,42 +1,53 @@
 .heading1 {
+  color: #ffffff;
   font-family: "Bellefair", serif;
   font-size: 150px;
 }
 .heading2 {
+  color: #ffffff;
   font-family: "Bellefair", serif;
   font-size: 100px;
 }
 .heading3 {
+  color: #ffffff;
   font-family: "Bellefair", serif;
   font-size: 56px;
 }
 .heading4{
+  color: #ffffff;
   font-family: "Bellefair", serif;
   font-size: 32px;
 }
 .heading4{
+  color: #ffffff;
   font-family: "Bellefair", serif;
   font-size: 32px;
 }
 .heading5{
+  color: #D0D6F9;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 28px;
   letter-spacing: 4.75;
 }
 .subheading1{
+  color: #ffffff;
   font-family: 'Bellefair', serif;
   font-size: 28px;
 }
 .subheading2{
+  color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 14px;
   letter-spacing: 2.35;
 }
 .subheading2{
+  color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 14px;
   letter-spacing: 2.35;
 }
 body {
-  color: #ffffff;
+  color: #D0D6F9;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
 }

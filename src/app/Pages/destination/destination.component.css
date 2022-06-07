@@ -29,3 +29,26 @@
     overflow: hidden;
   }
 }
+
+li{
+  list-style-type: none;
+  margin-right: 2em;
+}
+ul{
+justify-content:start;
+margin-top: 6em;
+padding-left: 0;
+}
+.description{
+  max-width: 60%;
+}
+hr{
+  max-width: 60%;
+}
+.nav-item:hover {
+  border-bottom: 1px solid #ffffff;
+  cursor: pointer;
+}
+.nav-tabs {
+  border-bottom: none;
+}
