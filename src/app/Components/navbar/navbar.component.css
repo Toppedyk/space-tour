@@ -3,6 +3,15 @@
   height: 10vh;
   margin-top: 3em;
 }
+.logo{
+  margin-top: 3em;
+  height: 10vh;
+}
+hr{
+  position: relative;
+  left: 4.5em;
+  bottom: 2.5em;
+}
 .nav-link {
   color: #ffffff;
   cursor: pointer;
