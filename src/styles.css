@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+.heading1 {
+  font-family: "Bellefair", serif;
+  font-size: 150px;
+}
+.heading2 {
+  font-family: "Bellefair", serif;
+  font-size: 100px;
+}
+.heading3 {
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+}
+.heading4{
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+}
+.heading4{
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+}
+.heading5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75;
+}
+.subheading1{
+  font-family: 'Bellefair', serif;
+  font-size: 28px;
+}
+.subheading2{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35;
+}
+.subheading2{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35;
+}
+body {
+  color: #ffffff;
+}

@@ -1,18 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light col-6 float-end">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<nav class="navbar navbar-expand-lg col-6 float-end navbar-dark bg-dark">
+  <div class="container-fluid ">
+    <div class="collapse navbar-collapse justify-content-around me-5" id="navbarSupportedContent">
+      <ul class="nav nav-tabs mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="">00 Home</a>
+          <p class="nav-link" routerLink="" [routerLinkActive]="['underline']"><strong>00</strong> Home</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/destination">01 Destination</a>
+          <p class="nav-link" routerLink="/destination" [routerLinkActive]="['underline']"><strong>01</strong> Destination</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/crew">02 Crew</a>
+          <p class="nav-link" routerLink="/crew" [routerLinkActive]="['underline']"><strong>02</strong> Crew</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/technology">03 Technology</a>
+          <p class="nav-link" routerLink="/technology" [routerLinkActive]="['underline']"><strong>03</strong> Technology</p>
         </li>
       </ul>
     </div>
