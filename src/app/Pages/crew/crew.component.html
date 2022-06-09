@@ -3,6 +3,47 @@
     <app-navbar></app-navbar>
   </div>
   <div>
-      <h1 class="heading1">Crew Works!</h1>
+    <div class="row ">
+      <div class="col-6 text-container">
+        <div class="row ">
+          <div class="col">
+            <h1 class="heading4 title">02 MEET YOUR CREW</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 class="heading4">{{activeCrew.role}}</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3 class="heading3 name">{{activeCrew.name | uppercase}}</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="bio d-flex">
+              {{activeCrew.bio}}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="tab-container">
+              <button class="button rounded-circle me-3" *ngFor="let crew of crew" [ngClass]="{
+                active: crew.name == activeCrew.name
+              }" (click)="changeCrew(crew.name)"></button>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="row">
+          <div class="col">
+            <img src="{{activeCrew.images.png}}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

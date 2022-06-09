@@ -24,9 +24,7 @@ export class DestinationComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.destinations);
     this.activeDestination = this.destinations[0]
-    console.log(this.activeDestination);
   }
 
   changeActive(name:string) {
