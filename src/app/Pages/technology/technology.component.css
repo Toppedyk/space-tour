@@ -29,3 +29,29 @@
     overflow: hidden;
   }
 }
+img{
+  margin-top: 5em;
+}
+.button {
+  background-color: #68686817;
+  color: #ffffff;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+  border: none;
+  font-size: 2.5em;
+  font-family: "Bellefair", serif;
+  outline: 1px solid rgba(255, 255, 255, 0.222);
+  margin-bottom: .7em;
+}
+.button:hover {
+    outline: 2px solid rgba(255, 255, 255, 0.627);
+}
+.active {
+  background-color: #ffffff;
+  color: #0B0D17;
+}
+.info{
+  margin-top: 10em;
+  padding-left: 10em;
+}
