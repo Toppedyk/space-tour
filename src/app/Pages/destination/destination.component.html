@@ -3,35 +3,50 @@
     <app-navbar></app-navbar>
   </div>
   <div class="row">
-    <div class="col-7">
+    <div class="col-6">
       <div class="row">
-        <div class="col">
+        <div class="col text-center mt-5">
           <h1 class="heading4">01 PICK YOUR DESTINATION</h1>
         </div>
       </div>
+      <div class="row">
+        <div class="col d-flex justify-content-end me-5">
+          <img
+            class="img-fluid mt-5"
+            src="{{ activeDestination.images.png }}"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
-    <div class="col-5">
+    <div class="col-5 ms-5">
       <div class="row">
         <div class="col">
           <ul class="nav nav-tabs">
-            <li class="nav-item">Moon</li>
-            <li>Mars</li>
-            <li>Europa</li>
-            <li>TITAN</li>
+            <li
+              class="nav-item"
+              *ngFor="let destination of destinations"
+              (click)="changeActive(destination.name)"
+              [ngClass]="{
+                underline: destination.name == activeDestination.name
+              }"
+            >
+              {{ destination.name | uppercase }}
+            </li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col d-flex ps-1">
-          <div class="heading2">MOON</div>
+          <div class="heading2 mt-2">
+            {{ activeDestination.name | uppercase }}
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col description mb-3">
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur, earum? Nesciunt facere cumque minima tempora quas,
-            explicabo eum sint. Delectus.
+            {{ activeDestination.description }}
           </div>
         </div>
       </div>
@@ -40,12 +55,12 @@
         <div class="col-3 d-flex flex-column">
           <div>AVG. DISTANCE</div>
           <div>
-            Planet Distance
+            {{ activeDestination.distance }}
           </div>
         </div>
         <div class="col-3 d-flex flex-column float-left">
           <div>EST. TRAVEL TIME</div>
-          <div>Planet Time</div>
+          <div>{{ activeDestination.travel }}</div>
         </div>
       </div>
     </div>

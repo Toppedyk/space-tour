@@ -36,7 +36,7 @@ li{
 }
 ul{
 justify-content:start;
-margin-top: 6em;
+margin-top: 10em;
 padding-left: 0;
 }
 .description{
@@ -51,4 +51,8 @@ hr{
 }
 .nav-tabs {
   border-bottom: none;
+  height: 1em;
+}
+.underline {
+  border-bottom: 1px solid #ffffff;
 }
