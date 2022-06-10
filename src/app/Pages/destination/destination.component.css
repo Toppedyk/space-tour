@@ -118,7 +118,7 @@ hr{
 .subheading2{
   font-size: 2.5vw;
 }
-.col-5 {
+.numbers {
   width: 30vw;
   text-align: center;
 }
@@ -135,4 +135,36 @@ hr{
     width: 100vw;
     overflow: hidden;
   }
+  .heading4{
+    font-size: 4vw;
+  }
+    .picture{
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+.mobile{
+  margin-top: 4em !important;
+}
+.nav-item{
+  font-size: 4vw;
+}
+.heading2{
+  font-size: 15vw;
+}
+.description-text{
+  font-size: 4vw;
+}
+.numbers {
+  width: 100%;
+  text-align: center;
+}
+.subheading1{
+  font-size: 6.5vw;
+  margin-bottom: 1em;
+
+}
+.subheading2{
+  font-size: 4vw;
+}
 }

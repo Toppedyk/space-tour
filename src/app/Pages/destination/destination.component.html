@@ -3,14 +3,14 @@
     <app-navbar></app-navbar>
   </div>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <div class="row">
         <div class="col text-center mt-5">
           <h1 class="heading4">01 PICK YOUR DESTINATION</h1>
         </div>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5 mobile">
       <div class="col-lg-7 picture">
         <img
           class="img-fluid"
@@ -51,13 +51,13 @@
         </div>
         <hr />
         <div class="row">
-          <div class="col-5  flex-column">
+          <div class="col-md-5 flex-column numbers">
             <div class="subheading2">AVG. DISTANCE</div>
             <div class="subheading1">
               {{ activeDestination.distance }}
             </div>
           </div>
-          <div class="col-5  flex-column float-left">
+          <div class="col-md-5  flex-column float-left numbers">
             <div class="subheading2">EST. TRAVEL TIME</div>
             <div class="subheading1">{{ activeDestination.travel }}</div>
           </div>
