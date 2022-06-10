@@ -7,28 +7,6 @@
   width: 100vw;
   overflow: hidden;
 }
-@media (max-width: 768px) {
-  .background {
-    background: url(../../starter-code/assets/crew/background-crew-tablet.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-}
-@media (max-width: 576px) {
-  .background {
-    background: url(../../starter-code/assets/crew/background-crew-mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-}
 .button {
   background-color: #68686817;
   color: #0b0d17;
@@ -58,4 +36,38 @@ margin-bottom: 4em;
 .bio{
   margin-bottom: 15em;
   width: 40%;
+}
+@media (max-width: 992px) {
+  .background {
+    background: url(../../starter-code/assets/crew/background-crew-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .text-container{
+    order: 1;
+  }
+  .picture{
+    order:2
+  }
+}
+@media (max-width: 720px) {
+  .background {
+    background: url(../../starter-code/assets/crew/background-crew-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+    .picture{
+    order: 1;
+  }
+  .text-container{
+    order: 2;
+  }
 }
