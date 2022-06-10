@@ -7,6 +7,9 @@
   width: 100vw;
   overflow: hidden;
 }
+.row, .col{
+  padding-right: 0;
+}
 .content {
   margin-top: 10em;
   text-align: start;
@@ -57,18 +60,28 @@
     text-align: center;
   }
   .intro {
-  padding-top: 5em;
-  padding-left: 12em;
-  padding-right: 12em;
-  padding-bottom: 10em;
+  padding-top: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-bottom: 5em;
 }
 .description {
   width: 50vw;
-  padding-left: 18em;
-  padding-right: 18em;
-  font-size: 1.3vw;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-size: 2vw;
 }
-
+.heading1{
+  font-size: 15vw;
+}
+.heading5{
+  font-size: 2.8vw;
+}
+.btn-container {
+  padding-top: 0em;
+  padding-left: 12em;
+  padding-right: 12em;
+}
 }
 
 
@@ -86,4 +99,30 @@
     width: 100vw;
     overflow: hidden;
   }
+  .heading5{
+    font-size: 5vw;
+  }
+  .heading1{
+    font-size: 20vw;
+  }
+  .description{
+    font-size: 5vw;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .btn-container {
+  padding-top: 15em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.button {
+  background-color: #ffffff;
+  color: #0b0d17;
+  text-align: center;
+  height: 40vw;
+  width: 40vw;
+  border: none;
+  font-size: 5vw;
+  font-family: "Bellefair", serif;
+}
 }
