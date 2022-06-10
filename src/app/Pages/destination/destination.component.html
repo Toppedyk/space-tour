@@ -9,58 +9,58 @@
           <h1 class="heading4">01 PICK YOUR DESTINATION</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col d-flex justify-content-end me-5">
-          <img
-            class="img-fluid mt-5"
-            src="{{ activeDestination.images.png }}"
-            alt=""
-          />
-        </div>
-      </div>
     </div>
-    <div class="col-5 ms-5">
-      <div class="row">
-        <div class="col">
-          <ul class="nav nav-tabs">
-            <li
-              class="nav-item"
-              *ngFor="let destination of destinations"
-              (click)="changeActive(destination.name)"
-              [ngClass]="{
-                underline: destination.name == activeDestination.name
-              }"
-            >
-              {{ destination.name | uppercase }}
-            </li>
-          </ul>
-        </div>
+    <div class="row mt-5">
+      <div class="col-lg-7 picture">
+        <img
+          class="img-fluid"
+          src="{{ activeDestination.images.png }}"
+          alt=""
+        />
       </div>
-      <div class="row">
-        <div class="col d-flex ps-1">
-          <div class="heading2 mt-2">
-            {{ activeDestination.name | uppercase }}
+      <div class="col-lg-5 info">
+        <div class="row list">
+          <div class="col">
+            <ul class="nav nav-tabs">
+              <li
+                class="nav-item"
+                *ngFor="let destination of destinations"
+                (click)="changeActive(destination.name)"
+                [ngClass]="{
+                  underline: destination.name == activeDestination.name
+                }"
+              >
+                {{ destination.name | uppercase }}
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col description mb-3">
-          <div>
-            {{ activeDestination.description }}
+        <div class="row">
+          <div class="col d-flex  name">
+            <div class="heading2 mt-2">
+              {{ activeDestination.name | uppercase }}
+            </div>
           </div>
         </div>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col-3 d-flex flex-column">
-          <div>AVG. DISTANCE</div>
-          <div>
-            {{ activeDestination.distance }}
+        <div class="row description-container">
+          <div class="col description mb-3">
+            <div class="description-text">
+              {{ activeDestination.description }}
+            </div>
           </div>
         </div>
-        <div class="col-3 d-flex flex-column float-left">
-          <div>EST. TRAVEL TIME</div>
-          <div>{{ activeDestination.travel }}</div>
+        <hr />
+        <div class="row">
+          <div class="col-5  flex-column">
+            <div class="subheading2">AVG. DISTANCE</div>
+            <div class="subheading1">
+              {{ activeDestination.distance }}
+            </div>
+          </div>
+          <div class="col-5  flex-column float-left">
+            <div class="subheading2">EST. TRAVEL TIME</div>
+            <div class="subheading1">{{ activeDestination.travel }}</div>
+          </div>
         </div>
       </div>
     </div>

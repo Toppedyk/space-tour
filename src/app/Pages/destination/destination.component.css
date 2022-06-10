@@ -7,43 +7,23 @@
   width: 100vw;
   overflow: hidden;
 }
-@media (max-width: 768px) {
-  .background {
-    background: url(../../starter-code/assets/destination/background-destination-tablet.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
+.row, .col{
+  padding-right: 0;
+  padding-left: 0;
 }
-@media (max-width: 576px) {
-  .background {
-    background: url(../../starter-code/assets/destination/background-destination-mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-}
-
 li{
   list-style-type: none;
   margin-right: 2em;
 }
 ul{
 justify-content:start;
-margin-top: 10em;
 padding-left: 0;
 }
 .description{
   max-width: 60%;
 }
 hr{
-  max-width: 60%;
+  max-width: 70%;
 }
 .nav-item:hover {
   border-bottom: 1px solid #ffffff;
@@ -55,4 +35,104 @@ hr{
 }
 .underline {
   border-bottom: 1px solid #ffffff;
+}
+.picture{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5em;
+}
+.info{
+  padding-left: 5em;
+}
+.subheading2{
+  color: #D0D6F9;
+}
+
+
+@media (max-width: 992px) {
+  .background {
+    background: url(../../starter-code/assets/destination/background-destination-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .picture{
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+}
+img{
+  margin-top: 0;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  padding-left: 0;
+  padding-right: 0;
+}
+.nav-item{
+  font-size: 3vw;
+}
+.heading2{
+  padding-top: 0.2em;
+  font-size: 10vw;
+}
+ul{
+  display: flex;
+  justify-content: center;
+}
+li{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.name{
+  padding-left: 0;
+}
+.picture{
+  padding: 0;
+}
+.list{
+  justify-content: center;
+  align-items: baseline;
+}
+.description-text{
+  font-size: 2.2vw;
+}
+.description-container{
+  justify-content: center;
+  text-align: center;
+}
+hr{
+  height: 1px;
+  width: 80%;
+}
+.subheading1{
+  font-size: 4vw;
+}
+.subheading2{
+  font-size: 2.5vw;
+}
+.col-5 {
+  width: 30vw;
+  text-align: center;
+}
+
+}
+
+@media (max-width: 720px) {
+  .background {
+    background: url(../../starter-code/assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
 }

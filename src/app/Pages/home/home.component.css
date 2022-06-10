@@ -11,7 +11,7 @@
   padding-right: 0;
 }
 .content {
-  margin-top: 10em;
+  margin-top: 5em;
   text-align: start;
 }
 .intro {
@@ -34,7 +34,7 @@
   box-shadow: 0 0 0 1.7em #ffffff1a;
 }
 .btn-container {
-  padding-top: 10em;
+  padding-top: 7em;
   padding-left: 12em;
   padding-right: 12em;
 }
@@ -82,6 +82,7 @@
   padding-left: 12em;
   padding-right: 12em;
 }
+
 }
 
 
