@@ -7,7 +7,42 @@
   width: 100vw;
   overflow: hidden;
 }
-@media (max-width: 768px) {
+.content {
+  margin-top: 10em;
+  text-align: start;
+}
+.intro {
+  padding-top: 5em;
+  padding-left: 12em;
+  padding-right: 13em;
+  padding-bottom: 10em;
+}
+.button {
+  background-color: #ffffff;
+  color: #0b0d17;
+  text-align: center;
+  height: 20vw;
+  width: 20vw;
+  border: none;
+  font-size: 2.5em;
+  font-family: "Bellefair", serif;
+}
+.button:hover {
+  box-shadow: 0 0 0 1.7em #ffffff1a;
+}
+.btn-container {
+  padding-top: 10em;
+  padding-left: 12em;
+  padding-right: 12em;
+}
+.description {
+  width: 85%;
+}
+
+
+
+
+@media (max-width: 992px) {
   .background {
     background: url(../../starter-code/assets/home/background-home-tablet.jpg);
     background-size: cover;
@@ -17,8 +52,31 @@
     width: 100vw;
     overflow: hidden;
   }
+  .content {
+    margin-top: 10em;
+    text-align: center;
+  }
+  .intro {
+  padding-top: 5em;
+  padding-left: 12em;
+  padding-right: 12em;
+  padding-bottom: 10em;
 }
-@media (max-width: 576px) {
+.description {
+  width: 50vw;
+  padding-left: 18em;
+  padding-right: 18em;
+  font-size: 1.3vw;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 720px) {
   .background {
     background: url(../../starter-code/assets/home/background-home-mobile.jpg);
     background-size: cover;
@@ -28,35 +86,4 @@
     width: 100vw;
     overflow: hidden;
   }
-}
-
-.content {
-  margin-top: 10em;
-  text-align: center;
-}
-.intro {
-  padding-top: 5em;
-  padding-left: 12em;
-  padding-right: 13em;
-  padding-bottom: 10em;
-}
-
-.button {
-  background-color: #ffffff;
-  color: #0b0d17;
-  text-align: center;
-  height: 300px;
-  width: 300px;
-  border: none;
-  font-size: 2.5em;
-  font-family: "Bellefair", serif;
-}
-.button:hover {
-  box-shadow: 0 0 0 1.7em #ffffff1a;
-}
-
-.btn-container {
-  padding-top: 10em;
-  padding-left: 12em;
-  padding-right: 12em;
 }

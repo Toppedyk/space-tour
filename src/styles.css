@@ -1,53 +1,42 @@
 .heading1 {
   color: #ffffff;
   font-family: "Bellefair", serif;
-  font-size: 150px;
+  font-size: 9vw;
 }
 .heading2 {
   color: #ffffff;
   font-family: "Bellefair", serif;
-  font-size: 100px;
+  font-size: 7vw;
 }
 .heading3 {
   color: #ffffff;
   font-family: "Bellefair", serif;
-  font-size: 56px;
+  font-size: 3vw;
 }
 .heading4{
   color: #ffffff;
   font-family: "Bellefair", serif;
-  font-size: 32px;
-}
-.heading4{
-  color: #ffffff;
-  font-family: "Bellefair", serif;
-  font-size: 32px;
+  font-size: 2vw;
 }
 .heading5{
   color: #D0D6F9;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 28px;
+  font-size: 1.8vw;
   letter-spacing: 4.75;
 }
 .subheading1{
   color: #ffffff;
   font-family: 'Bellefair', serif;
-  font-size: 28px;
+  font-size: 1.8vw;
 }
 .subheading2{
   color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 14px;
-  letter-spacing: 2.35;
-}
-.subheading2{
-  color: #ffffff;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 14px;
+  font-size: 1vw;
   letter-spacing: 2.35;
 }
 body {
   color: #D0D6F9;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 16px;
+  font-size: 1vw;
 }
