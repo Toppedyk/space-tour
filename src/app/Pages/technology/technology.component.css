@@ -7,28 +7,7 @@
   width: 100vw;
   overflow: hidden;
 }
-@media (max-width: 768px) {
-  .background {
-    background: url(../../starter-code/assets/technology/background-technology-tablet.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-}
-@media (max-width: 576px) {
-  .background {
-    background: url(../../starter-code/assets/technology/background-technology-mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-}
+
 img{
   margin-top: 5em;
 }
@@ -57,4 +36,75 @@ img{
 }
 .description{
   width: 75%;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
+.landscape{
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .background {
+    background: url(../../starter-code/assets/technology/background-technology-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.landscape{
+  display: block;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  object-fit: contain;
+}
+.portrait{
+  display: none !important;
+}
+img{
+  width: 101vw;
+}
+.info{
+  text-align: center;
+  padding-left: 0;
+}
+.description{
+  width: 100%;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-size: 2.5vw;
+}
+.heading3{
+  font-size: 4vw;
+}
+.heading5{
+  font-size: 3vw;
+  margin-bottom: 1em;
+}
+}
+
+
+
+
+
+
+@media (max-width: 720px) {
+  .background {
+    background: url(../../starter-code/assets/technology/background-technology-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
 }

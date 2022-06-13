@@ -1,47 +1,53 @@
-<div class="background container-fluid">
+<div class="background">
   <div>
     <app-navbar></app-navbar>
   </div>
-  <div class="row">
+  <div class="row order-1">
     <div class="col">
       <div class="h2 heading4">03 SPACE LAUNCH 101</div>
     </div>
   </div>
   <div class="row">
-    <div class="col-6">
+    <div class="col-lg-6 justify-content-end landscape">
+      <img src="{{ activeTech.images.landscape }}" alt="" class="img-fluid" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
       <div class="row info">
-        <div class="col-4 d-flex flex-column">
+        <div class="col-lg-4 buttons">
           <button
             class="button rounded-circle me-3"
-            *ngFor="let tech of technology;let i = index"
+            *ngFor="let tech of technology; let i = index"
             (click)="changeActive(tech.name)"
             [ngClass]="{
               active: tech.name == activeTech.name
             }"
-          >{{i+1}}</button>
+          >
+            {{ i + 1 }}
+          </button>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8">
           <div class="row">
-            <div class="col">
-              THE TERMINOLOGY...
-            </div>
+            <div class="col heading5">THE TERMINOLOGY...</div>
           </div>
           <div class="row">
             <div class="col">
-              <h2 class="heading3">{{activeTech.name | uppercase}}</h2>
+              <h2 class="heading3">{{ activeTech.name | uppercase }}</h2>
             </div>
           </div>
           <div class="row">
             <div class="col">
               <div class="description">
-                {{activeTech.description}}
+                {{ activeTech.description }}
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-6 d-flex justify-content-end">
+    <div class="col-6 d-flex justify-content-end portrait">
       <img src="{{ activeTech.images.portrait }}" alt="" class="img-fluid" />
     </div>
   </div>
