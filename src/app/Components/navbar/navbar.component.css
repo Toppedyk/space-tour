@@ -35,3 +35,16 @@ p {
     margin-left: 1em;
     margin-right: 1em;
 }
+.nav{
+  flex-wrap: nowrap;
+}
+.my-dropdown{
+display: none;
+}
+
+
+@media (max-width: 992px) {
+  .my-dropdown{
+    display: block;
+  }
+}
