@@ -95,5 +95,7 @@
       }
     }
   },
-  "defaultProject": "space-tour"
+  "cli": {
+    "analytics": false
+  }
 }

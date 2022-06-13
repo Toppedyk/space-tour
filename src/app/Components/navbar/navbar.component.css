@@ -12,6 +12,9 @@ hr{
   left: 4.5em;
   bottom: 2.5em;
 }
+.tablet{
+  justify-content: center;
+}
 .nav-link {
   color: #ffffff;
   cursor: pointer;
@@ -28,7 +31,7 @@ hr{
 }
 p {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 2em;
+  font-size: 16px;
   letter-spacing: 2.7;
 }
 .nav-item{
@@ -54,5 +57,9 @@ p {
 .navbar{
   justify-content: flex-end !important;
 }
-
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 2em;
+  letter-spacing: 2.7;
+}
 }
