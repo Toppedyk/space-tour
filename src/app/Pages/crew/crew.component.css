@@ -50,11 +50,53 @@ margin-bottom: 4em;
   }
   .text-container{
     order: 1;
+    text-align: center;
+    padding-left: 0;
   }
   .picture{
     order:2
   }
+.bio{
+  padding-bottom: 10em;
+  padding-left: 10em;
+  padding-right: 10em;
+  width: 100%;
+  height: 15vw;
+  font-size: 2.5vw;
 }
+.pic{
+  text-align: center;
+}
+h1{
+  font-size: 2.5vw;
+  margin-bottom: 3em;
+}
+h2{
+  font-size: 4vw;
+}
+.name{
+  font-size: 5vw;
+  margin-bottom: .5em;
+}
+.button {
+  background-color: #68686817;
+  color: #0b0d17;
+  text-align: center;
+  height: 1em;
+  width: 1em;
+  border: none;
+  font-size: 2.5em;
+  font-family: "Bellefair", serif;
+  outline: 1px solid rgba(255, 255, 255, 0.222);
+  margin-bottom: 1em;
+}
+}
+
+
+
+
+
+
 @media (max-width: 720px) {
   .background {
     background: url(../../starter-code/assets/crew/background-crew-mobile.jpg);

@@ -3,7 +3,7 @@
     <app-navbar></app-navbar>
   </div>
     <div class="row">
-      <div class="col-lg-6 text-container">
+      <div class="col-lg-6 text-container order-1">
         <div class="row ">
           <div class="col">
             <h1 class="heading4 title">02 MEET YOUR CREW</h1>
@@ -19,9 +19,9 @@
             <h3 class="heading3 name">{{activeCrew.name | uppercase}}</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row  bio-content">
           <div class="col">
-            <div class="bio d-flex">
+            <div class="bio">
               {{activeCrew.bio}}
             </div>
           </div>
@@ -36,10 +36,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-2 order-lg-1 order-md-1">
         <div class="row">
-          <div class="col">
-            <img src="{{activeCrew.images.png}}" alt="">
+          <div class="col pic">
+            <img src="{{activeCrew.images.png}}" class="img-fluid">
           </div>
         </div>
       </div>
