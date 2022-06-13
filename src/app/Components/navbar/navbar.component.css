@@ -41,7 +41,7 @@ p {
 .nav{
   flex-wrap: nowrap;
 }
-.hamburger{
+.hamburger, .sidenav{
   display: none;
 }
 
@@ -63,6 +63,7 @@ p {
   letter-spacing: 2.7;
 }
 .sidenav {
+  display: block;
   height: 100%;
   width: 0;
   position: fixed;
